@@ -38,7 +38,7 @@
     rules:
       - Detect outbound connections to common miner pool ports
   actions:
-    - action: Disable outbound connections
+    - action: Annotate the pod
 
 - rule: Detect crypto miners using the Stratum protocol
   match:
